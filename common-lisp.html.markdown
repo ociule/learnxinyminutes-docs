@@ -8,7 +8,7 @@ contributors:
 
 ANSI Common Lisp is a general purpose, multi-paradigm programming
 language suited for a wide variety of industry applications. It is
-frequently referred to a programmable programming language.
+frequently referred to as a programmable programming language.
 
 The classic starting point is [Practical Common Lisp and freely available.](http://www.gigamonkeys.com/book/)
 
@@ -140,7 +140,7 @@ nil                  ; for false - and the empty list
 ;; 2. Variables
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; You can create a global (dynamically scoped) using defparameter
-;; a variable name can use any character except: ()[]{}",'`;#|\
+;; a variable name can use any character except: ()",'`;#|\
 
 ;; Dynamically scoped variables should have earmuffs in their name!
 
@@ -377,7 +377,7 @@ nil                  ; for false - and the empty list
 ;; 4. Equality
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-;; Common Lisp has a sophisticated equality system. A couple are covered yere.
+;; Common Lisp has a sophisticated equality system. A couple are covered here.
 
 ;; for numbers use `='
 (= 3 3.0) ; => t

@@ -2,6 +2,8 @@
 language: python
 lang: ru-ru
 contributors:
+    - ["Louie Dinh", "http://ldinh.ca"]
+translators:
     - ["Yury Timofeev", "http://twitter.com/gagar1n"]
 filename: learnpython-ru.py
 ---
@@ -34,7 +36,7 @@ filename: learnpython-ru.py
 35 / 5 #=> 7
 
 # А вот деление немного сложнее. В этом случае происходит деление 
-№ целых чисел и результат автоматически округляется в меньшую сторону.
+# целых чисел и результат автоматически округляется в меньшую сторону.
 5 / 2 #=> 2
 
 # Чтобы научиться делить, сначала нужно немного узнать о дробных числах.
